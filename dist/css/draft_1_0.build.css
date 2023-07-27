@@ -517,7 +517,7 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }.ease-out{
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}body{font-family:"pretendard";letter-spacing:-0.02em;overflow-x: hidden;--tw-bg-opacity: 1;background-color: rgb(16 16 16 / var(--tw-bg-opacity))}.header{
+}body{font-family:"pretendard";letter-spacing:-0.02em;overflow-x: hidden;--tw-bg-opacity: 1;background-color: rgb(0 0 0 / var(--tw-bg-opacity))}.header{
   position: fixed;
   z-index: 9999;
   height: 88px;
@@ -568,7 +568,7 @@ video {
   margin-top: 1.5vw;
   margin-bottom: 1.5vw;
   display: block;
-  font-size: 3.25vw;
+  font-size: 4.25vw;
   font-weight: 700;
   letter-spacing: -0.03em;
   --tw-text-opacity: 1;
@@ -576,16 +576,17 @@ video {
 }.select-block .select-row span{
   display: inline-block;
   font-weight: 800;
+  letter-spacing: -0.05em;
 }.select-block .select-row .select-btn{
   margin-right: 1rem;
   margin-left: 1rem;
   border-bottom-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(210 34 57 / var(--tw-border-opacity));
+  border-color: rgb(241 0 255 / var(--tw-border-opacity));
 }.select-block .select-row .select-btn span{
   display: inline-block;
   --tw-text-opacity: 1;
-  color: rgb(210 34 57 / var(--tw-text-opacity));
+  color: rgb(241 0 255 / var(--tw-text-opacity));
 }.select-block .select-row .select-btn svg{
   display: inline-block;
   width: 3vw;
