@@ -6,19 +6,19 @@ import '../public/css/draft_1_0.css';
 
 // gsap.registerPlugin(ScrollTrigger);
 
-const homeBack = document.querySelector('.home-back');
-const homeOuter = document.querySelector('.home-outer');
-const homeInner = document.querySelector('.home-wrap');
+// const homeBack = document.querySelector('.home-back');
+// const homeOuter = document.querySelector('.home-outer');
+// const homeInner = document.querySelector('.home-wrap');
 
-window.addEventListener('scroll', ()=>{
-  if(window.scrollY > 100){
-    homeBack.style.opacity = 0.9;
-  }else if(window.scrollY < 100){
-    homeBack.style.opacity = 1;
-  }
-  // console.log(homeInner.offsetTop);
-  console.log(window.scrollY);
-}, false);
+// window.addEventListener('scroll', ()=>{
+//   if(window.scrollY > 100){
+//     homeBack.style.opacity = 0.9;
+//   }else if(window.scrollY < 100){
+//     homeBack.style.opacity = 1;
+//   }
+//   // console.log(homeInner.offsetTop);
+//   console.log(window.scrollY);
+// }, false);
   
 
 //---------------------------
