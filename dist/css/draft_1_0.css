@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;700&display=swap');
+
+body{
+  font-family: 'pretendard'; letter-spacing: -0.02em;
+}
+
+html{
+  
+}
+body{ @apply overflow-x-hidden bg-[#101010]; }
+
+//-------------------------
+
+.header {
+  @apply w-full h-[88px] fixed z-[9999] ;
+  .logo{@apply absolute w-[88px] h-[88px] left-[40px] top-0 ;}
+  .header-right {
+    @apply absolute w-[164px] right-[40px] top-[30px] ;
+  }
+}
+
+//----------------
+.home-outer{
+  @apply relative w-full h-[200vh] min-h-[2000px] ;
+}
+.home-wrap{
+  @apply absolute w-full h-[200vh] min-h-[2000px] z-10 px-[10vmax];
+  .home-inner{
+    @apply relative w-full h-full z-10;
+  }
+  .home-spacer { @apply block w-full h-[15vh] min-h-[150px] ; }
+  .home-spacer2 { @apply block w-full h-[80px] ; }
+  .home-spacer3 { @apply block w-full h-[200px] ; }
+}
+
+/*----------------*/
+.select-block{
+  .select-row{
+    @apply block text-[3.25vw] font-bold text-white my-[1.5vw] tracking-[-0.03em];
+    span{ @apply inline-block font-extrabold ; }
+    .select-btn {
+      @apply mr-4 ml-4 border-b-[2px] border-[#D22239] ;
+      span{ @apply inline-block text-[#D22239] ; }
+      svg{ @apply inline-block w-[3vw]; }
+    }
+    .btn-select-act {
+      @apply w-[4vw] ;
+    }
+  }
+}
+.select-group {
+  @apply w-full max-w-[1100px];
+}
+.home-back {
+  @apply block fixed w-full h-screen top-0 left-0 z-[1] 
+  transition-opacity ;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 80%);
+  pointer-events: none; 
+}
